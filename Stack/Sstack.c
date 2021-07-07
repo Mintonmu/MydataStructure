@@ -98,7 +98,7 @@ bool GetTop2(ShareStack *s, ShareStackType *x)
     }
     return false;
 }
-bool PrintShareStack(ShareStack *s)
+void PrintShareStack(ShareStack *s)
 {
     for (size_t i = 0; i < ShareStackMaxSize; i++)
     {
